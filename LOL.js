@@ -25,7 +25,7 @@ $('.promo > .promo-trigger').on('mouseout',function () {
 	    };
 	    go(nextIndex);
 	    current = nextIndex;
-	}, 5000);
+	}, 3000);
 });
 function go(index) {
     //添加对应标签为active，删除其他标签的active
@@ -46,7 +46,7 @@ let itvl = setInterval(function () {
     };
     go(nextIndex);
     current = nextIndex;
-}, 5000);
+}, 3000);
 
 //newsTabs   最新资讯Tab切换
 $('.news-nav').on('mouseover','li',function (e) {

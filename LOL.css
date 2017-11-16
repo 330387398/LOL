@@ -383,7 +383,7 @@ body { margin: 0 auto; min-width:1240px; font-family: Microsoft YaHei, Tahoma, s
 }
 .promo .promo-list {
 	width: 4100px;
-	transition: transform 0.3s;
+	transition: transform 0.8s;
 }
 .promo .promo-item {
 	float: left;
